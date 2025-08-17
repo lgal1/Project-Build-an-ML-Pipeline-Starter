@@ -69,4 +69,4 @@ def test_row_count(data):
 def test_price_range(data, min_price, max_price):
         min_price = float(min_price)
         max_price = float(max_price)
-        assert data["price"].dropna().between(float(min_price), float(max_price)).all()
+        assert data["price"].dropna().between(min_price, max_price).all()

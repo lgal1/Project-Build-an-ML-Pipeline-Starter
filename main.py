@@ -1,6 +1,7 @@
 import json
 
 import mlflow
+import mlflow.sklearn
 import tempfile
 import os
 import wandb
