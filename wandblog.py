@@ -1,5 +1,6 @@
 import wandb
 import pandas as pd
+import os
 
 # Start a W&B run
 run = wandb.init(project="Project-Build-an-ML-Pipeline-Starter", job_type="basic_cleaning") 
